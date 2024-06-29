@@ -2,27 +2,33 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #020202;
   margin: 0;
+  padding: 0 0 0 30px;
 
 }
 
 .hero-section {
     background-image: url(/img/faded-office.png);
     background-size: cover;
-    width: 100%;
+    background-position: center;
+    min-height: 100vh;
     margin: 0;
     border: .1px solid white;
+
 }
 
 
 #title {
     font-family: "Open Sans", sans-serif;
     font-weight: 800;
-    padding: 30px 0 0 0;
+    margin-top: 80px;
+    font-size: 50px;
+    
 }
 
 #description {
     font-weight: 400;
     margin: 0 0 40px 0;
+    font-size: 26px;
 }
 
 #underline {
@@ -35,8 +41,9 @@ button {
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
     border: none;
-    padding: 10px 25px;
-    border-radius: 25px;
+    padding: 20px 45px;
+    border-radius: 30px;
     margin: 0 0 120px 0;
+    font-size: 20px;
     
 }
